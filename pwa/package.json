@@ -1,0 +1,64 @@
+{
+  "name": "meowrush-front",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@types/uuid": "^8.3.4",
+    "react-scripts": "5.0.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@mui/styles": "^5.2.3",
+    "@types/compose-function": "0.0.30",
+    "classnames": "^2.3.1",
+    "compose-function": "^3.0.3",
+    "country-flag-icons": "^1.4.26",
+    "dayjs": "^1.11.1",
+    "history": "^5.3.0",
+    "lightweight-charts": "^3.3.0",
+    "lodash": "^4.17.21",
+    "mobx": "^6.5.0",
+    "mobx-react": "^7.3.0",
+    "react": "17.0.2",
+    "react-declarative": "^1.9.82",
+    "react-dom": "17.0.2",
+    "resize-observer-polyfill": "^1.5.1",
+    "rxjs": "^7.5.5",
+    "use-debounce": "^7.0.1",
+    "uuid": "^8.3.2",
+    "web3": "^1.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
