@@ -6,7 +6,7 @@ import CloseIcon from '../../assets/close-icon.svg'
 import walletIcon from '../../assets/wallet.svg'
 import catImage from '../../assets/catImage.jpg'
 
-export const NavBar = () => {
+export const NavBar = ({ currentUser, nearConfig, wallet }) => {
 
     const [isHovering, setIsHovering] = useState(false);
 
@@ -99,10 +99,19 @@ export const NavBar = () => {
 
    
 
-    const connectWallet = () => {
-        ioc.walletService.connectWallet()
-        console.log('wallet connect')
-    }
+    const connectWallet = (e) => {
+        if (currentUser{
+          (function signOut() {
+            wallet.signOut();
+            window.location.replace(
+              window.location.origin + window.location.pathname
+            );
+          })();
+        } else if (!currentUser) {
+          (function signIn() {
+            wallet.requestSignIn(nearConfig.contractName, "MeowRush");
+          })();
+        }
     return (
         <div style={styles.navigation}>
             <div style={styles.avatar}>
